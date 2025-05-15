@@ -12,6 +12,7 @@ This is a guide to get the Ryzen 7000 series processors with AMD Radeon 680M/780
 ## Confirmed list of hardware that works:
 
 - [x] Ryzen 5 5500U (Zen 2 Lucienne iGPU) 
+- [x] Ryzen 5 6600H (RDNA2 660M Rembrandt iGPU) 
 - [x] Ryzen 7 7735HS (RDNA2 680M Rembrandt iGPU) 
 - [x] Ryzen 7 7840HS (RDNA3 780M Phoenix iGPU)
 - [x] Ryzen 7 8845HS (RDNA3 780M Phoenix iGPU) - thanks @serega404 for confirming
@@ -44,7 +45,7 @@ This is a guide to get the Ryzen 7000 series processors with AMD Radeon 680M/780
     ```
 3. Proxmox VE comes with Enterprise repositories configured by default, we need to switch to the non-subscription ones to get proxmox updates:
     ```
-    bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-install.sh)"
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/post-pve-install.sh)"
     ```
 4. Install the CPU Microcode packages:
     ```
