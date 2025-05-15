@@ -49,7 +49,7 @@ This is a guide to get the Ryzen 7000 series processors with AMD Radeon 680M/780
     ```
 4. Install the CPU Microcode packages:
     ```
-    bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/microcode.sh)"
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/tools/pve/microcode.sh)"
     ```
     
 # Configuring the GPU for passthrough
