@@ -12,6 +12,7 @@ This is a guide to get the Ryzen 7000 series processors with AMD Radeon 680M/780
 ## Confirmed list of hardware that works:
 
 - [x] Ryzen 5 5500U (Zen 2 Lucienne iGPU) 
+- [x] Ryzen 5 5600G (Zen 3 Cezanne iGPU)
 - [x] Ryzen 5 6600H (RDNA2 660M Rembrandt iGPU) 
 - [x] Ryzen 7 6800H (RDNA2 680M Rembrandt iGPU) 
 - [x] Ryzen 7 7735HS (RDNA2 680M Rembrandt iGPU) 
